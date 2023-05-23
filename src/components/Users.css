@@ -1,0 +1,51 @@
+:root {
+  --white: #ffffff;
+  --orange: #f7c08a;
+  --black: #444;
+  --otherBlack: #333;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: var(--otherBlack);
+  border: solid 2px black;
+}
+
+input {
+  margin: 0 10px 0 10px;
+  height: 30px;
+}
+
+label {
+  margin: 10px 0 0 10px;
+  height: 30px;
+  font-size: large;
+  color: var(--white);
+}
+
+.button_p__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  margin: 10px 0 10px 10px;
+  width: 100px;
+  height: 20px;
+  background-color: var(--white);
+  color: var(--otherBlack);
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.errorMessage {
+  font-size: 15px;
+  color: var(--white);
+}
