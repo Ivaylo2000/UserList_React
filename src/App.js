@@ -14,7 +14,6 @@ function App() {
     <div className="app">
       <Users onUserAdd={handleUserAdd} />
       <AddList users={users} />
-      <div className="olio"></div>
     </div>
   );
 }
